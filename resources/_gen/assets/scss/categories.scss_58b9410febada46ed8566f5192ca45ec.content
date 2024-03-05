@@ -1,0 +1,17 @@
+.level-1-bg {
+  background-color: #1A73E8 !important; }
+
+google-codelab-index-cards .card.level-1-bottom {
+  border-bottom-color: #1A73E8; }
+
+.level-2-bg {
+  background-color: #E37400 !important; }
+
+google-codelab-index-cards .card.level-2-bottom {
+  border-bottom-color: #E37400; }
+
+.level-3-bg {
+  background-color: #5F6368 !important; }
+
+google-codelab-index-cards .card.level-3-bottom {
+  border-bottom-color: #5F6368; }

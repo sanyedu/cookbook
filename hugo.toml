@@ -1,0 +1,35 @@
+baseURL = 'https://docs.sanyedu.org/cookbook/'
+languageCode = 'en-us'
+title = 'CodeLabs'
+theme = 'codelabs'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+
+[params]
+  homeTitle = "软件技术专业菜谱式教程"
+  homeDescription = """菜谱式教材是一种以菜谱的形式呈现教学内容的教材。类似于菜谱指导烹饪步骤和食材使用，菜谱式教材提供了详细的教学步骤和学习活动，以帮助学生掌握特定的学科或技能。
+
+菜谱式教材通常具有以下特点：
+
+- **步骤化的指导：** 就像菜谱一样，菜谱式教材将教学内容分解为一系列具体的步骤或活动，清晰地指导学生完成任务或掌握知识。
+- **详细的说明：** 与传统教材相比，菜谱式教材提供了更详细的说明和解释，以确保学生能够理解每个步骤的目的和执行方法。
+- **实践导向：** 菜谱式教材注重学生的实践和操作，鼓励他们通过实际的学习活动来探索和发现知识。
+- **可操作性强：** 菜谱式教材的步骤通常具有明确的操作性，学生可以根据指导逐步执行，从而达到学习目标。
+- **灵活性：** 菜谱式教材可以根据不同的学习目标和教学场景进行调整和定制，以满足不同学生群体的需求。
+
+菜谱式教材常用于教学设计中，特别是在实践性强、操作性强的学科或技能培养中，如烹饪、手工艺、科学实验等。通过模拟菜谱的形式，教师可以更加有效地引导学生学习，使学习过程更加生动有趣，同时也更容易让学生掌握知识和技能。"""
+  math = true
+  footer = "<a href=\"https://github.com/sanyedu/cookbook-java\">❤ Source code</a>"
+  feedbackLink = "mailto:bryt.xin.li@gmail.com"
+  [params.categoryColors]
+    Level-1 = "#1A73E8"
+    Level-2 = "#E37400"
+    Level-3 = "#5F6368"
