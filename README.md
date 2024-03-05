@@ -4,6 +4,12 @@
 
 https://gohugo.io/
 
-## Run
+## Run Development Server
 
-see Makefile
+```
+git submodule init
+git submodule update
+make server
+```
+
+visit: http://localhost:1313/cookbook/
